@@ -1,0 +1,49 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('fontes/GreatVibes-Regular.ttf') format('truetype');
+}
+
+:root {
+    --cor0: #FFE5D1;
+    --cor1: #FFC2A1;
+    --cor2: #FF9A6A;
+    --cor3: #FF7043;
+    --cor4: #D64925 ;
+
+
+    --font-titulo: "Playfair Display SC", serif;
+    --font-texto-h2: "Great Vibes", cursive, sans-serif;
+    --font-texto-p: "Nunito Sans", sans-serif;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+}
+
+header {
+    background-image: linear-gradient(var(--cor2), var(--cor3)) ;
+    color: rgba(0, 0, 0, 0.781);
+    font-family: var(--font-texto-h2);
+    font-size: 2em;
+    padding: 16px;
+    margin: auto;
+    text-align: center; 
+}
+
+main {
+    background-color: white;
+    
+}
+

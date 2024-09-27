@@ -65,7 +65,7 @@ nav {
 }
 
 nav > a {
-    color: white;
+    color: var(--cor0);
     padding: 10px;
     border-radius: 4px;
     text-decoration: none;
@@ -114,6 +114,11 @@ main p {
     line-height: 1.5em;
 }
 
+a {
+    font-size: 1.2em;
+    color: var(--cor4);
+}
+
 main strong {
     color: var(--cor4);
     font-weight: bold;
@@ -124,6 +129,30 @@ main img {
     width: 40%;
 }
 
+.elemento img {
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.elemento:hover img {
+    transform: scale(1.1);
+}
+
+div.video {
+    background-color: var(--cor3);
+    margin: 0px -16px 30px -16px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
 
 footer {
     background-color: var(--cor4);
